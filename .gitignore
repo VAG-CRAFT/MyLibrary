@@ -1,0 +1,14 @@
+*.Debug
+*.Release
+#Books_backup.bin
+Makefile
+MyLibrary2.pro
+MyLibrary2.pro.user
+NEWONE.rar
+#Users_Backup.bin
+.qmake.stash
+Books LIST.txt
+Books.bin
+Users LIST.txt
+Users.bin
+debug/
