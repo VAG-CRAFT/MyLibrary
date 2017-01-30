@@ -47,6 +47,7 @@ bool Book::pick (std::vector<char> &_ISBN, int user_id)
                 tmp.clear();
                 for (int i=0;i<block_size;i++){tmp.push_back(out.get());}
             }
+            std::cout<<"Book with requested ISBN was not found.."<<std::endl;
             out.close();
             return false;
         }

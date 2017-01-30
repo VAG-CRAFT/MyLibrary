@@ -211,6 +211,7 @@ int main()
                         cout<<"Book with ISBN: ";
                         for (unsigned int i=0; i<isbn_tmp.size(); i++) {cout<<isbn_tmp[i];}
                         cout<<" was not found. Check and try again."<<endl;
+                        sec_menu_flag=true;
                         break;}
                     cout<<"Do you really want to delete this book? (y/n)? "<<endl;
                     cin>>fgets(&option,1,stdin);
